@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Website</title>
+  <link href="../img/Sara%20occhiuto.png" rel="icon">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+
+  <!-- Pulsante per mobile -->
+  <button id="hamburger-button" class="btn btn-primary d-md-none m-0" type="button" data-toggle="collapse" data-target="#sidebarMenu">
+    ☰
+  </button>
+
+  <div class="container-fluid">
+    <div class="row no-gutters">
+
+      <!-- Sidebar -->
+    <nav class="col-md-2 bg-black text-white collapse d-md-block sidebar py-4" id="sidebarMenu">
+        <div class="d-flex flex-column justify-content-between h-100">
+            <div>
+            <div class="text-center mb-0">
+                <img src="../img/profile.jpg" alt="foto profilo" class="profile-pic">
+            </div>
+            <a class="link" href="formazione.html">Formazione 📚</a>
+            <a class="link" href="esperienze.html">Esperienze 📇</a>
+            <a class="link" href="competenze.html">Competenze 📊</a>
+            <a class="link" href="certificazioni.html">Certificazioni 📑</a>
+            <a class="link" href="progetti.html">Progetti 💻</a>
+            <a class="link" href="servizi.html">Servizi 💼</a>
+            <a class="link" href="contatti.html">Contatti 👥</a>
+            </div>
+            <a class="link mt-4" href="../index.html">Home 🏠</a>
+        </div>
+    </nav>
+
+
+      <!-- Contenuto principale -->
+    <main class="col-md-10 p-0">
+        <img src="../img/wallpaper4.jpg" alt="Wallpaper" class="img-fluid mb-0">
+        <h3><b>Formazione 📚</b></h3>
+        <p class="subtitle"><b>2022 - in corso | Università di Pisa</b></p>
+        <p>
+            Sto completando il mio percorso di studi presso l'Università di Pisa, nel corso di laurea in Ingegneria
+            Informatica. Le competenze, i progetti, le certificazioni acquisite fino ad ora sono visibili rispettivamente
+            nella sezioni <b>Competenze📊</b>, <b>Progetti💻</b> e <b>Certificazioni📑</b>
+        </p>
+        <br>
+        
+        <p class="subtitle"><b>2017 - 2022 | Liceo Scientifico G. Pellecchia</b></p>
+        <p>
+            Ho conseguito il diploma di maturità scientifica, indirizzo Scienze Applicate, presso il Liceo Scientifico
+            della mia città, dove ho iniziato ad avvicinarmi all’informatica.
+        </p>
+
+
+        <button id="scrollTopButton" title="Torna su">⬆</button>
+    </main>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="../js/script.js"></script>
+</body>
+</html>
